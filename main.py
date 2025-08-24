@@ -85,10 +85,10 @@ while True:
         left *= 4
 
         # Draw a box around the face
-        cv.rectangle(frame, (left, top), (right, bottom), Color.GREEN.value, 2)
+        cv.rectangle(frame, (left, top), (right, bottom), Color.MAGENTA.value, 2)
 
         # Draw a label with a name
-        cv.putText(frame, name, (left, top - 10), cv.FONT_HERSHEY_SIMPLEX, 1, Color.GREEN.value, 2)
+        cv.putText(frame, name, (left, top - 10), cv.FONT_HERSHEY_SIMPLEX, 1, Color.MAGENTA.value, 2)
 
     # Display the resulting frame
     cv.imshow(window_name, frame)
