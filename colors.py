@@ -16,6 +16,7 @@ class Color(Enum):
     GRAY    = (128, 128, 128)
     BLACK   = (0, 0, 0)
     WHITE   = (255, 255, 255)
+    CUSTOM   = (127, 95, 255)
 
 if __name__ == "__main__":
     print("Available BGR Colors:")
